@@ -37,7 +37,7 @@ else:
 	print("ALL UNIQUE.")
 
  
-Ppp
+
 #Solution2:
 nums = [int(input(f"enter n{i+1}: ")) for i in range(5)]
 
