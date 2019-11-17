@@ -50,8 +50,8 @@ print(f"min = {min}")
 #Solution1:
 
 nums = [int(input(f"Enter n{i+1}: ")) for i  in range(5)]
-max, min = nums[0], nums[0]
-for i in range(5):
+max, min = n[0], n[0]
+for i in range(1, 5):
 	if nums[i] > max:
 		max = nums[i]
 	if  nums[i] < min:
